@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: "./",
-    outputDir: "dist",
-    filenameHashing: false
+  publicPath: './',
+  outputDir: 'dist',
+  filenameHashing: false
 }

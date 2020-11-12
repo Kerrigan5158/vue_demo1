@@ -1,5 +1,10 @@
+const title = 'hello vue'
+
 module.exports = {
   publicPath: './',
   outputDir: 'dist',
-  filenameHashing: false
+  filenameHashing: false,
+  configureWebpack: {
+    name: title
+  }
 }
